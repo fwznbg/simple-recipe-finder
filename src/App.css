@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #cdd4ca;
+}
+.App{
+  max-width: 1366px;
+  background-color: #cdd4ca;
+  text-align: center;
+}
+
+.web-title {
+  padding: 1em 0 0 0;
+  font-size: 3em;
+}
+
+.search-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.search-bar {
+  outline: none;
+  width: 20em;
+  height: 2.8em;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.search-button {
+  border: none;
+  width: 6em;
+  height: 2.8em;
+  color: white;
+  background-color: #153e5c;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.search-button:hover {
+  background-color: #87aeb4;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.recipe-card{
+  padding: 2em;
+  margin: 1em;
+  max-width: 25em;
+  background-color: #f2be54;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.5s;
+}
+
+.recipe-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+}
+
+.title {
+  margin: 0.5em;
+  font-size: 1.8em;
+}
+
+.cal {
+  margin: 0.2em 0 0.8em 0;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.ingredients {
+  margin: 0.3em;
+  line-height: 1.2em;
+  list-style-type: none;
+}
+
+.pict {
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-top: 1em;
+}
+
+.not-loading {
+  display: none;
+}
